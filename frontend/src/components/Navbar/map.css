@@ -1,0 +1,29 @@
+.tanzania-map {
+    background-color: #f5f5f5;
+  }
+
+.tanzania-map .highcharts-background {
+    fill: #f5f5f5;
+    stroke: #ccc;
+    stroke-width: 1px;
+  }
+
+.tanzania-map .highcharts-point {
+    fill: red;
+    stroke: white;
+    stroke-width: 2px;
+    r: 8px;
+  }
+.tanzania-map .highcharts-tooltip-box {
+    fill: rgba(255, 255, 255, 0.9);
+    stroke: #ccc;
+    stroke-width: 1px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+.tanzania-map .highcharts-tooltip text {
+    font-size: 14px;
+    color: #333;
+  }
+  

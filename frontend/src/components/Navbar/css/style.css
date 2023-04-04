@@ -1,0 +1,4 @@
+.my-button:active {
+  background-color: blue !important;
+  border-color: blue !important;
+}

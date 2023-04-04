@@ -1,0 +1,15 @@
+.selection-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.selection-box {
+  flex: 1;
+  margin-right: 20px;
+  margin-left: 20px;
+  max-width: calc(100% / 3 - 40px);
+  width: 100%;
+}

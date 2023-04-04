@@ -1,0 +1,36 @@
+.col {
+  display: grid; /* use flexbox layout */
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+
+  flex-wrap: nowrap; /* prevent wrapping to new line */
+  justify-content: space-between; /* distribute items evenly */
+  align-items: center; /* vertically center items */
+}
+
+.widget {
+  border: 2px solid #2196F3;
+  border-radius: 4px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+.widget:focus {
+  outline: none;
+  border-color: #64B5F6;
+  box-shadow: 0 0 0 2px #64B5F6;
+}
+
+
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button-group {
+  color: black;
+  /* add other button styles here */
+}

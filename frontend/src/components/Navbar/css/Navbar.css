@@ -1,0 +1,77 @@
+.App{
+  height: 100vh;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 56px);
+}
+
+.selects {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.selects > div {
+  margin-right: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.map-container {
+  max-width: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+}
+
+
+.selection-box {
+  flex: 1;
+  margin-right: 20px;
+  margin-left: 20px;
+  max-width: calc(100% / 3 - 40px);
+  width: 100%;
+  color: black;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+}
+
+.tanzania-map {
+  background-color: #f5f5f5;
+}
+
+.tanzania-map .highcharts-background {
+  fill: #f5f5f5;
+  stroke: #ccc;
+  stroke-width: 1px;
+}
+
+.tanzania-map .highcharts-point {
+  fill: rgb(247, 18, 18);
+  stroke: white;
+  stroke-width: 2px;
+  r: 8px;
+}
+.tanzania-map .highcharts-tooltip-box {
+  fill: rgba(255, 255, 255, 0.9);
+  stroke: #ccc;
+  stroke-width: 1px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tanzania-map .highcharts-tooltip text {
+  font-size: 14px;
+  color: #333;
+}
